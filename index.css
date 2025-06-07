@@ -1,0 +1,37 @@
+body {
+  background-color: #000000; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.button-container.top button {
+  width: 30 0px;
+  height: 80px;
+  background-color: #2e2e2e;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-container.bottom button {
+  width: 350px;
+  height: 350px;
+  background-color: #444;
+  border: none;
+  border-radius: 8px;
+  color: white; 
+  font-size: 16px;
+  cursor: pointer;
+}

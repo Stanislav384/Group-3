@@ -31,7 +31,7 @@ header{
     display: inline-block;
     width: 40px;   
     height: 25px;
-    background-image: url('https://sdmntprnortheu.oaiusercontent.com/files/00000000-bbf8-61f4-89e0-e5c8297c9f69/raw?se=2025-06-18T11%3A35%3A17Z&sp=r&sv=2024-08-04&sr=b&scid=60fd0e91-9cc5-56a6-a115-5e55e7aa3111&skoid=82a3371f-2f6c-4f81-8a78-2701b362559b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-18T05%3A16%3A12Z&ske=2025-06-19T05%3A16%3A12Z&sks=b&skv=2024-08-04&sig=nq/HS40RtnJTj9089QUGZKrmqUri3uy3uYxNgC1Rftc%3D');
+    background-image: url('https://sdmntprnortheu.oaiusercontent.com/files/00000000-bbf8-61f4-89e0-e5c8297c9f69/raw?se=2025-06-20T13%3A13%3A01Z&sp=r&sv=2024-08-04&sr=b&scid=3b26f065-9a9b-592e-8656-04d159155f57&skoid=eb780365-537d-4279-a878-cae64e33aa9c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-20T11%3A12%3A10Z&ske=2025-06-21T11%3A12%3A10Z&sks=b&skv=2024-08-04&sig=o%2BHGk1VOfEDzAc%2BqbuewCNMSP5Dv/FDPp87TuOiAKYo%3D');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -105,7 +105,6 @@ header{
 
 .name {
     font-size: 36px;
-    font-weidth: 600;
     color: white;
     position: absolute;
     top: 20px;

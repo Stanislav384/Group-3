@@ -4,7 +4,62 @@
     font-weight: normal;
     font-style: normal;
 }
-  
+
+@media (max-width: 1200px) {
+    .frame-1,
+    .frame-2{
+        width: 16%;
+        min-width: 160px;
+    }
+
+    .frame-main{
+        width: 69%;
+        min-width: 600px;
+    }
+    .song-card,
+    .artist-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .important-info{
+        max-height: 120px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .frame-1,
+    .frame-2,
+    .frame-main{
+        width: 95%;
+        max-height: 400px;
+    }
+    .song-card,
+    .artist-img{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+    .about-artist-text{
+        font-size: 16px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .subscribe-listerners{
+        flex-direction: column;
+        align-items: center;
+    }
+    .important-info{
+        font-size: 13px;
+        width: 95%;
+    }
+}
 
 body{
     background: #000000;
@@ -18,12 +73,14 @@ body{
     display: flex;
     background: #121212;
     height: 65px;
+    width: 100%;
 }
 
 .foot{
     display: flex;
     background: #121212;
     height: 70px;
+    width: 100%;
     margin-top: 7px;
 }
 
@@ -41,8 +98,6 @@ body{
     align-items: left;
     justify-content: center;
     background: #121212;
-    height: 715px;
-    width: 230px;
     border-radius: 10px;
     margin-left: 5px;
     padding-left: 5px;
@@ -54,8 +109,6 @@ body{
     flex-direction: column;
     align-items: center;
     background: #121212;
-    height: 715px;
-    width: 195px;
     border-radius: 10px;
     margin-right: 5px;
     row-gap: 20px;
@@ -67,8 +120,6 @@ body{
     align-items: center;
     justify-content: center;
     background: #121212;
-    height: 715px;
-    width: 1090px;
     border-radius: 10px;
 }
 
@@ -78,9 +129,9 @@ body{
     overflow-y: auto;
     display: hidden;
     max-height: 605px;
-    width: 222px;
     border-radius: 5px;
     row-gap: 5px;
+    margin-bottom: 5px;
 }
 
 .media-library::-webkit-scrollbar {
@@ -91,7 +142,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100px;
-    width: 222px;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -99,7 +150,6 @@ body{
     display: flex;
     flex-direction: row;
     height: 30px;
-    width: 222px;
     border-radius: 10px;
     margin-top: 3px;
 }
@@ -108,7 +158,6 @@ body{
     display: flex;
     flex-direction: row;
     height: 25px;
-    width: 222px;
     border-radius: 10px;
     margin-top: 7px;
 }
@@ -433,6 +482,7 @@ body{
     height: 345px;
     width: 170px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .artist-img{
@@ -525,4 +575,4 @@ body{
 
 /* написати класи для song-info / main-info / other-info  | ✓  */
 /* дописати media-library та почати писати frame-2  | ✓  */
-/* почати писати в script.js  |  ✓ */
+/* почати писати в script.js  | ✖  */

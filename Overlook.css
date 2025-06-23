@@ -31,7 +31,7 @@ header {
   display: inline-block;
   width: 40px;
   height: 25px;
-  background-image: url('https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-18ec-620a-8b45-cf4280501970/raw?se=2025-06-21T12%3A50%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=8ccccf33-2532-5934-b1ce-212b00df9de5&skoid=b928fb90-500a-412f-a661-1ece57a7c318&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-21T11%3A46%3A04Z&ske=2025-06-22T11%3A46%3A04Z&sks=b&skv=2024-08-04&sig=BNgfwwgh/X5YrBHY3gfy8GI9QV/RW6iiu87fQPCTaRg%3D');
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1386780118835265566/raw.png?ex=685af321&is=6859a1a1&hm=492468aa46899f2783ff048b0e4ad6b4487dcad381c2d6d26101e5fe117afdb5&');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -42,7 +42,7 @@ header {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844420217835561/Overlook.jpg?ex=6853e85e&is=685296de&hm=77fa2f9c3966f343ddf23ce74a5aa6f134ace61a2fe93ecd88626257b5a119bb&');
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844420217835561/Overlook.jpg?ex=685a7fde&is=68592e5e&hm=af1a5d89191e4a4446ce690fe0296ba099e8ba20e0800ad9a6e659c1cd3cdf75&');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,29 +53,19 @@ header {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844559355220058/Friends.jpg?ex=6853e880&is=68529700&hm=57233a54d76cc1bc317f954d7cb116c024d8efe2d8656de3486637569c440361&');
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844559355220058/Friends.jpg?ex=685a8000&is=68592e80&hm=2ccc09d3213e54480da9d66ce5454dc71ad013e5d71796bf0ed79d7a7c195a07&');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgb(39, 39, 39);
 }
 
-#Media-library {
-  display: inline-block;
-  width: 25px;
-  height: 25px;
-  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844642243051580/Media_library.jpg?ex=6853e893&is=68529713&hm=065d76076f48783db6fdcc8ffbf607c637df2e5a78bcaa93ffae5234df757a3c&');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: rgb(39, 39, 39);
-}
 
 #Account {
   display: inline-block;
   width: 25px;
   height: 25px;
-  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844716998135878/Account.jpg?ex=6853e8a5&is=68529725&hm=59b5e1ab02fc4eedf50cca6b4ce1d3834d0fa9148664796ba4485075417a888f&');
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844716998135878/Account.jpg?ex=685a8025&is=68592ea5&hm=bd45a9064adc7477dceea5ed0a54e194f2e48809f343d80f2f63a1f5773845f5&');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

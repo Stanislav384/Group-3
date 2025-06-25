@@ -1,9 +1,9 @@
-body{
-    background-color: rgb(19, 19, 19);
-    margin:0px;
-    padding: 0px;
+body {
+  background-color: rgb(19, 19, 19);
+  margin: 0px;
+  padding: 0px;
 }
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,105 +11,93 @@ header{
   background: black;
   height: 80px;
 }
-.menu-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90px;
-    border: 4px solid black;
-    border-radius: 20px;
-    padding: 10px;
-    cursor:pointer;
-    text-decoration: none;
-    margin:50px;
-    gap:50px;
-    margin-right: 100px;
-    transition: all 0.3s ease;
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  border: 4px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 50px;
+  gap: 50px;
+  margin-right: 100px;
+  transition: all 0.3s ease;
 }
 
-#Home{
-    display: inline-block;
-    width: 40px;   
-    height: 25px;
-    background-image: url('https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-18ec-620a-8b45-cf4280501970/raw?se=2025-06-21T12%3A50%3A05Z&sp=r&sv=2024-08-04&sr=b&scid=8ccccf33-2532-5934-b1ce-212b00df9de5&skoid=b928fb90-500a-412f-a661-1ece57a7c318&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-21T11%3A46%3A04Z&ske=2025-06-22T11%3A46%3A04Z&sks=b&skv=2024-08-04&sig=BNgfwwgh/X5YrBHY3gfy8GI9QV/RW6iiu87fQPCTaRg%3D');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(39, 39, 39);
+#Home {
+  display: inline-block;
+  width: 40px;
+  height: 25px;
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1386780118835265566/raw.png?ex=685af321&is=6859a1a1&hm=492468aa46899f2783ff048b0e4ad6b4487dcad381c2d6d26101e5fe117afdb5&');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(39, 39, 39);
 }
 
-#Overlook{
-    display: inline-block;
-    width: 25px;   
-    height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844420217835561/Overlook.jpg?ex=6853e85e&is=685296de&hm=77fa2f9c3966f343ddf23ce74a5aa6f134ace61a2fe93ecd88626257b5a119bb&');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(39, 39, 39);
+#Overlook {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844420217835561/Overlook.jpg?ex=685a7fde&is=68592e5e&hm=af1a5d89191e4a4446ce690fe0296ba099e8ba20e0800ad9a6e659c1cd3cdf75&');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(39, 39, 39);
 }
 
-#Friends{
-    display: inline-block;
-    width: 25px;   
-    height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844559355220058/Friends.jpg?ex=6853e880&is=68529700&hm=57233a54d76cc1bc317f954d7cb116c024d8efe2d8656de3486637569c440361&');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(39, 39, 39);
+#Friends {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844559355220058/Friends.jpg?ex=685a8000&is=68592e80&hm=2ccc09d3213e54480da9d66ce5454dc71ad013e5d71796bf0ed79d7a7c195a07&');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(39, 39, 39);
 }
 
-#Media-library{
-    display: inline-block;
-    width: 25px;   
-    height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844642243051580/Media_library.jpg?ex=6853e893&is=68529713&hm=065d76076f48783db6fdcc8ffbf607c637df2e5a78bcaa93ffae5234df757a3c&');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(39, 39, 39);
-}
 
-#Account{
-    display: inline-block;
-    width: 25px;   
-    height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844716998135878/Account.jpg?ex=6853e8a5&is=68529725&hm=59b5e1ab02fc4eedf50cca6b4ce1d3834d0fa9148664796ba4485075417a888f&');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(39, 39, 39);
+#Account {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844716998135878/Account.jpg?ex=685a8025&is=68592ea5&hm=bd45a9064adc7477dceea5ed0a54e194f2e48809f343d80f2f63a1f5773845f5&');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(39, 39, 39);
 }
-
 
 .library-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
 }
 
 .category {
-    width: 300px;
-    text-align: center;
-    position: relative;
+  width: 300px;
+  text-align: center;
+  position: relative;
 }
 
 .category img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
   display: block;
 }
 
 .name {
-    font-size: 36px;
-    color: white;
-    position: absolute;
-    top: 20px;
-    left: 10px;
-  
+  font-size: 36px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 10px;
 }
 .search-bar {
   background: transparent;
@@ -120,17 +108,16 @@ header{
   margin-left: 10px;
   width: 100%;
 }
-.menu-btn:hover{
+.menu-btn:hover {
   padding: 10px 20px;
   border-radius: 999px;
   border: none;
   cursor: pointer;
   transform: scale(1.1);
-
 }
-.game-card{
+.game-card {
   display: flex;
-    align-items: center;
+  align-items: center;
   justify-content: center;
 }
 .card-container {
@@ -152,6 +139,7 @@ header{
   flex-direction: column;
   align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
 .character-card:hover {
@@ -165,6 +153,10 @@ header{
   background-size: cover;
   background-position: center;
   border-radius: 10px;
+  position: relative; /* Важливо для позиціонування дочірніх елементів */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .music-info {
@@ -194,4 +186,109 @@ header{
   margin-left: 45px;
   font-size: 16px;
   font-weight: bold;
+  flex-grow: 1;
+}
+
+/* Стилі для кнопки відтворення/паузи */
+.play-pause-btn {
+  position: absolute;
+  top: 10px;   /* Відстань від верхнього краю */
+  right: 10px; /* Відстань від правого краю */
+  width: 50px;
+  height: 50px;
+  background-color: #1DB954;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: scale(0.8); /* Початкове зменшення для ефекту появи */
+  transition: opacity 0.3s ease, transform 0.3s ease, background-color 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  z-index: 15; /* Залишаємо високий z-index */
+}
+
+/* Поява кнопки при наведенні на картку */
+.character-card:hover .play-pause-btn {
+  opacity: 1;
+  transform: scale(1); /* Збільшуємо до нормального розміру */
+}
+
+/* Коли музика грає, кнопка завжди видима і нерухома */
+.character-card.playing .play-pause-btn {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Ефект при наведенні на кнопку */
+.play-pause-btn:hover {
+  background-color: #1ED760;
+  transform: scale(1.1); /* Легке збільшення при наведенні на саму кнопку */
+}
+
+/* SVG іконки */
+.play-pause-btn svg {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.2s ease;
+}
+
+.play-pause-btn .play-icon {
+  display: block;
+}
+
+.play-pause-btn .pause-icon {
+  display: none;
+}
+
+.character-card.playing .play-pause-btn .play-icon {
+  display: none;
+}
+
+.character-card.playing .play-pause-btn .pause-icon {
+  display: block;
+}
+
+/* Анімація відтворення */
+.playing-animation {
+  display: flex;
+  gap: 3px;
+  margin-left: auto; /* Відсуває анімацію вправо */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Показуємо анімацію, коли музика грає */
+.character-card.playing .playing-animation {
+  opacity: 1;
+}
+
+.playing-animation span {
+  display: block;
+  width: 4px;
+  height: 15px;
+  background-color: #1DB954;
+  animation: equalize 1.2s infinite ease-in-out;
+  transform-origin: bottom;
+  border-radius: 2px;
+}
+
+.playing-animation span:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.playing-animation span:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes equalize {
+  0% {
+    height: 5px;
+  }
+  50% {
+    height: 20px;
+  }
+  100% {
+    height: 5px;
+  }
 }

@@ -144,6 +144,36 @@ media_items.forEach(item =>{
     });
 });
 
+const home_button = document.getElementById('Home');
+const overlook_button = document.getElementById('Overlook');
+
+let home_div = document.querySelector('.homepage-div');
+let overlook_div = document.querySelector('.overlook-div');
+let is_homepage = true;
+
+home_button.addEventListener('click', function() {
+
+    if (is_homepage == false) {
+        overlook_div.style.display = "none";
+        home_div.style.display = "flex";
+
+        is_homepage = true;
+    } else {
+
+    };
+});
+
+overlook_button.addEventListener('click', function() {
+    if (is_homepage == true) {
+        home_div.style.display = "none";
+        overlook_div.style.display = "flex";
+
+        is_homepage = false
+    } else {
+
+    };
+});
+
 // Ivan //
 
 document.addEventListener('DOMContentLoaded', () => {

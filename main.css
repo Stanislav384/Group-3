@@ -74,15 +74,15 @@ body{
     max-height: 715px;
 }
 
+.overlook-div::-webkit-scrollbar{
+    display: none;
+}
+
 .homepage-div{
     display: flex;
     flex-direction: column;
     max-height: 715px;
     padding: 15px;
-}
-
-.overlook-div::-webkit-scrollbar{
-    display: none;
 }
 
 .media-library{

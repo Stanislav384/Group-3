@@ -567,7 +567,7 @@ body{
     display: inline-block;
     width: 40px;
     height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1386780118835265566/raw.png?ex=685af321&is=6859a1a1&hm=492468aa46899f2783ff048b0e4ad6b4487dcad381c2d6d26101e5fe117afdb5&');
+    background-image: url('photos/Home.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -578,7 +578,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844420217835561/Overlook.jpg?ex=685a7fde&is=68592e5e&hm=af1a5d89191e4a4446ce690fe0296ba099e8ba20e0800ad9a6e659c1cd3cdf75&');
+    background-image: url('photos/Overlook.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -589,7 +589,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844559355220058/Friends.jpg?ex=685a8000&is=68592e80&hm=2ccc09d3213e54480da9d66ce5454dc71ad013e5d71796bf0ed79d7a7c195a07&');
+    background-image: url('photos/Friends.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -601,7 +601,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844716998135878/Account.jpg?ex=685a8025&is=68592ea5&hm=bd45a9064adc7477dceea5ed0a54e194f2e48809f343d80f2f63a1f5773845f5&');
+    background-image: url('photos/Account.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

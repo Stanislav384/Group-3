@@ -1,10 +1,51 @@
+
+/* ✅ Responsive Setup */
+:root {
+    --sidebar-width: 20vw;
+    --sidebar-max-width: 250px;
+    --sidebar-min-width: 180px;
+    --frame-main-width: 60vw;
+    --frame-2-width: 20vw;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --sidebar-width: 25vw;
+        --frame-main-width: 50vw;
+        --frame-2-width: 25vw;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .frame-1, .frame-main, .frame-2 {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+    :root {
+        --sidebar-width: 100%;
+        --frame-main-width: 100%;
+        --frame-2-width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .frame-1, .frame-main, .frame-2 {
+        height: auto;
+        margin: 10px 0;
+        width: 100% !important;
+    }
+}
+
 /* css */
 
 /* Martin,Vania i Matvey krasavcy*/
 
 @font-face{
     font-family: 'Geologica';
-    src: url('project1\Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf') format('truetype');
+    src: url('Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,6 +67,15 @@ body{
 
 .main{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 7px;
+    overflow-x: auto;
+    margin-top: 7px;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 7px;
@@ -33,6 +83,9 @@ body{
 }
 
 .frame-1{
+    width: var(--sidebar-width);
+    max-width: var(--sidebar-max-width);
+    min-width: var(--sidebar-min-width);
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -47,6 +100,8 @@ body{
 }
 
 .frame-2{
+    width: var(--frame-2-width);
+    max-width: var(--sidebar-max-width);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,6 +115,8 @@ body{
 }
 
 .frame-main{
+    width: var(--frame-main-width);
+    max-width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -567,7 +624,7 @@ body{
     display: inline-block;
     width: 40px;
     height: 25px;
-    background-image: url('photos/Home.png');
+    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1386780118835265566/raw.png?ex=685af321&is=6859a1a1&hm=492468aa46899f2783ff048b0e4ad6b4487dcad381c2d6d26101e5fe117afdb5&');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -578,7 +635,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('photos/Overlook.jpg');
+    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844420217835561/Overlook.jpg?ex=685a7fde&is=68592e5e&hm=af1a5d89191e4a4446ce690fe0296ba099e8ba20e0800ad9a6e659c1cd3cdf75&');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -589,7 +646,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('photos/Friends.jpg');
+    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844559355220058/Friends.jpg?ex=685a8000&is=68592e80&hm=2ccc09d3213e54480da9d66ce5454dc71ad013e5d71796bf0ed79d7a7c195a07&');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -601,7 +658,7 @@ body{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('photos/Account.jpg');
+    background-image: url('https://cdn.discordapp.com/attachments/1267828707897376778/1384844716998135878/Account.jpg?ex=685a8025&is=68592ea5&hm=bd45a9064adc7477dceea5ed0a54e194f2e48809f343d80f2f63a1f5773845f5&');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -923,6 +980,7 @@ body{
 }
     
 .card-grid{
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;

@@ -908,23 +908,48 @@ body{
 }
   
 #Home{
-    background-image: url('Home-inactive.png'); 
+    display: inline-block;
+    width: 20px;
+    height: 25px;
+    background-image: url('photos/Home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(39, 39, 39);
 }
 
 #Overlook{
-    background-image: url('Overlook.png'); 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('photos/Overlook.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(39, 39, 39);
 }
 
 #Friends{
-    background-image: url('Friends.png'); 
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('photos/Friends.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(39, 39, 39);
 }
 
-#Media-library{
-    background-image: url('Media library.png');
-}
 
 #Account{
-    background-image: url('Account.png');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('photos/Account.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(39, 39, 39);
 }
 
 /* Search Bar */
